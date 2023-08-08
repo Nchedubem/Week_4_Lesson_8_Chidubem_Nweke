@@ -10,13 +10,14 @@ let currentPage = 1,
 async function fetchApi() {
     const response = await fetch(api);
     const data = await response.json();
+    console.log(data);
     categoriesData = data.categories;
     categoriesDataLength = categoriesData.length;
 }
 
 async function itemsToShow() {
     await fetchApi();
-
+    
     let foodContainer = document.getElementById("Categories");
     foodContainer.innerHTML = "";
 

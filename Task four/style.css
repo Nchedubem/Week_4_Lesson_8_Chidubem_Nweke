@@ -1,0 +1,35 @@
+#Categories {
+  background-color: #793d3d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  border: 1px solid #f0e0e0;
+}
+
+#prevBtn {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: #f0eaea;
+  text-align: center;
+}
+
+#nextBtn {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: #f0eaea;
+  text-align: center;
+}
+
+.category-item p {
+  font-size: 40px;
+  color: #777;
+}
+
+#prevBtn:hover,
+#nextBtn:hover {
+    background-color: #ca9ba5;
+}
